@@ -1,0 +1,45 @@
+/*반응형 화면 크기*/
+$medium: 770px;
+$large: 1320px;
+
+@font-face {
+    font-family: 'FuturaPT';
+    font-style: normal;
+    font-weight: 300;
+    src: url(/fonts/FuturaPT-Light.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/FuturaPT-Demi.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'FuturaPT'; /* Nanum Gothic Bold x */
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/FuturaPT-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'FuturaPT'; /* Nanum Gothic ExtraBold x */
+    font-style: normal;
+    font-weight: 800;
+    src: url(/fonts/FuturaPT-Heavy.woff) format('woff');
+}
+
+/*반응형, 브라우저 크기가 500이상, 1023px 이하일때*/
+@mixin medium {
+    @media (min-width: $medium) {
+        $header-height: 100px;
+        @content;
+    }
+}
+/*반응형, 브라우저 크기가 1024px 이상일때*/
+@mixin large {
+    @media (min-width: $large) {
+        @content;
+    }
+}

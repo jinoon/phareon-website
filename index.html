@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PHAREON</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/normalize.css" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/jquery-3.6.0.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:title" content="PHAREON" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://thephareon.com/" />
+    <meta property="og:image" content="http://thephareon.com/images/open.png" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header>
+      <div class="header-inner">
+        <div class="logo">
+          <img src="/images/header-logo.png" alt="" class="logo-img" />
+        </div>
+        <div class="nav">
+          <div class="nav-items nav-about" data-nav="about">about</div>
+          <div class="nav-items nav-whatwedo" data-nav="whatwedo">what we do</div>
+          <div class="nav-items nav-technology" data-nav="technology">technology</div>
+          <div class="nav-items nav-members" data-nav="members">members</div>
+          <div class="nav-items nav-contact" data-nav="contact">contact</div>
+        </div>
+        <div class="menu mobile"><span></span><span></span><span></span></div>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="background">
+        <div class="main-video">
+          <video id="desktop-video" poster="/images/main video_1.png" autoplay muted playsinline loop>
+            <source id="main-video-source" src="/videos/main video_1.mp4" type="video/mp4" />
+          </video>
+          <video id="mobile-video" poster="/images/main video_2.png" autoplay muted playsinline loop>
+            <source id="main-video-source" src="/videos/main video_2.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="inner">
+        <div class="about-logo">
+          <img src="/images/about-logo.png" alt="" />
+        </div>
+        <div class="about-text">
+          <!-- <h1>Look Beyond Object</h1> -->
+          <!-- <p>and see someone special</p> -->
+          <!-- <button class="on">더알아보기</button> -->
+        </div>
+      </div>
+    </section>
+    <section class="whatwedo" id="whatwedo">
+      <div class="inner">
+        <div class="whatwedo-text">
+          <h3>브랜드는 누군가의 내러티브다.</h3>
+          <p>
+            인공지능이 탑재된 카메라를 통해 <br />
+            브랜드의 이야기를 입체적으로 보여줄 수 있다면, <br />
+            가치를 소유하는 새로운 서비스가 가능하지 않을까.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="technology-2" id="technology">
+      <div class="inner">
+        <div class="tech-2-top">
+          <div class="thumbnails">
+            <div class="thumbnail">
+              <div class="contents">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/ai-camera.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="thumbnail">
+              <div class="contents">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/web-ar.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="thumbnail">
+              <div class="contents">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/rbc.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="pre">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+              <circle id="타원_1" data-name="타원 1" cx="13" cy="13" r="13" fill="#38cbdc" opacity="0.8" />
+              <path
+                id="패스_175"
+                data-name="패스 175"
+                d="M2021.507,2698l-5.653,4.476,5.653,4.541"
+                transform="translate(-2007.354 -2689.5)"
+                fill="none"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                opacity="0.8"
+              />
+            </svg>
+          </div>
+          <div class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+              <circle id="타원_2" data-name="타원 2" cx="13" cy="13" r="13" fill="#38cbdc" opacity="0.8" />
+              <path
+                id="패스_176"
+                data-name="패스 176"
+                d="M2021.507,2698l-5.653,4.476,5.653,4.541"
+                transform="translate(2033.507 2715.517) rotate(180)"
+                fill="none"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                opacity="0.8"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="tech-2-bottom">
+          <div class="tech-desc">
+            <div class="desc-parts on">
+              <h2>A.I. Camera</h2>
+              <div class="line"></div>
+              <p>인공지능 비전 기술을 통해 사용자 카메라 뷰의 위치와 방향을 실시간으로 읽어 리얼한 콘텐츠 합성을 가능하게 합니다.</p>
+            </div>
+            <div class="desc-parts">
+              <h2>Web AR</h2>
+              <div class="line"></div>
+              <p>앱 설치 없이 모바일 카메라를 비추는 것만으로 AR 경험이 가능하도록 웹 브라우저에 최적화된 콘텐츠를 제공합니다.</p>
+            </div>
+            <div class="desc-parts">
+              <h2>AR marketing tool</h2>
+              <div class="line"></div>
+              <p>상품을 매개로 고객과 커뮤니케이션할 수 있는 AR 콘텐츠를 쉽게 생성하고 관리할 수 있는 마케팅 툴을 제공합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technology-1" id="">
+      <div class="inner">
+        <div class="tech-1">
+          <h2>Pikd</h2>
+          <div class="tech-text">
+            <h3>새로운 리얼리티를 창조하다</h3>
+            <p>
+              파르온은 자체 개발의<br />
+              AI 비전 기술을 통해<br />
+              카메라의 시선을 따라<br />
+              특정의 콘텐츠가 증강되는<br />
+              진화된 AR 서비스를 제공합니다.
+            </p>
+          </div>
+        </div>
+        <div class="tech-2">
+          <div class="btns">
+            <button class="btn" data-filter-name="ent">ENT</button>
+            <button class="btn" data-filter-name="fnb">F&B</button>
+            <button class="btn" data-filter-name="public">Public</button>
+            <button class="btn" data-filter-name="medical">Medical</button>
+            <button class="btn" data-filter-name="retail">Retail</button>
+            <button class="btn" data-filter-name="exhibition">Exhibition</button>
+          </div>
+          <div class="tech-text">
+            <h3>새로운 리얼리티를 창조하다</h3>
+            <p>
+              파르온은 자체 개발의<br />
+              AI 비전 기술을 통해<br />
+              카메라의 시선을 따라<br />
+              특정의 콘텐츠가 증강되는<br />
+              진화된 AR 서비스를 제공합니다.
+            </p>
+          </div>
+          <div class="videos">
+            <div class="contents"></div>
+            <!-- <div
+                            id="tech-video"
+                            class="player"
+                            data-property="{
+                        videoURL: 'https://youtu.be/N_05Zc8gd5g',
+                        mute: true,
+                        showControls: false,
+                        useOnMobile: true,
+                        quality: 'highres',
+                        containment: 'body',
+                        loop: true,
+                        autoPlay: true,
+                        stopMovieOnBlur: false,
+                        startAt: 0,
+                        opacity: 1,
+                        containment: 'self'
+                      }"
+                        ></div> -->
+          </div>
+          <div class="tech-2-text">
+            <h5>Shopping</h5>
+            <h4>당신의 소비생활을 업그레이드해줍니다</h4>
+            <p>
+              파르온은 자체 개발의 AI 비전 기술을 통해<br />
+              카메라의 시선을 따라 특정의 콘텐츠가 증강되는<br />
+              진화된 AR 서비스를 제공합니다.
+            </p>
+          </div>
+        </div>
+        <div class="tech-3">
+          <div class="contents-wrap">
+            <div class="contents">
+              <div class="exgemple on ent">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/ent-1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="exgemple on fnb">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/fnb-1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="exgemple on public">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/public-1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="exgemple on medical">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/medical-1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="exgemple on retail">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/retail-1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="exgemple on exhibition">
+                <video autoplay muted playsinline loop>
+                  <source src="/videos/exhibition-1.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="pre">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+              <circle id="타원_4" data-name="타원 4" cx="13" cy="13" r="13" transform="translate(26 26) rotate(180)" fill="#fff" opacity="1" />
+              <path
+                id="패스_178"
+                data-name="패스 178"
+                d="M2021.507,2698l-5.653,4.476,5.653,4.541"
+                transform="translate(-2006.854 -2689.5)"
+                fill="none"
+                stroke="#38cbdc"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                opacity="1"
+              />
+            </svg>
+          </div>
+          <div class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+              <circle id="타원_3" data-name="타원 3" cx="13" cy="13" r="13" fill="#fff" opacity="1" />
+              <path
+                id="패스_177"
+                data-name="패스 177"
+                d="M2021.507,2698l-5.653,4.476,5.653,4.541"
+                transform="translate(2033.507 2715.517) rotate(180)"
+                fill="none"
+                stroke="#38cbdc"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                opacity="1"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="members" id="members">
+      <div class="inner">
+        <div class="top">
+          <h1>Our Team</h1>
+          <h2>Develop with PHAREON</h2>
+        </div>
+        <div class="middle">
+          <img src="/images/team_graphic.png" alt="" />
+        </div>
+        <div class="bottom">
+          <p>
+            파르온은 자체 개발의 AI 비전 기술을 통해 카메라의 시선을 따라 특정의 콘텐츠가 증강되는 진화된 AR 서비스를 제공합니다.
+          </p>
+          <button class="on">더알아보기</button>
+        </div>
+      </div>
+      <div class="modal-pop">
+        <div class="back"></div>
+        <div class="modal-inner">
+          <div class="teams">
+            <div class="team on">
+              <div class="face">
+                <img src="/images/man_1.png" alt="" />
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2>ceo</h2>
+                </div>
+              </div>
+              <div class="text">
+                <p>나는 팀의 중심을 맡고 있는 리더입니다. 어떤 사람이고 어떤 목표를 가지고 있습니다.</p>
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2>ceo</h2>
+                </div>
+              </div>
+            </div>
+            <div class="team on">
+              <div class="face">
+                <img src="/images/woman_1.png" alt="" />
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2>cto</h2>
+                </div>
+              </div>
+              <div class="text">
+                <p></p>
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2>cto</h2>
+                </div>
+              </div>
+            </div>
+            <div class="team">
+              <div class="face">
+                <img src="/images/woman_2.png" alt="" />
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2></h2>
+                </div>
+              </div>
+              <div class="text">
+                <p></p>
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2></h2>
+                </div>
+              </div>
+            </div>
+            <div class="team">
+              <div class="face">
+                <img src="/images/man_2.png" alt="" />
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2></h2>
+                </div>
+              </div>
+              <div class="text">
+                <p></p>
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2></h2>
+                </div>
+              </div>
+            </div>
+            <div class="team on">
+              <div class="face">
+                <img src="/images/woman_3.png" alt="" />
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2>Marketing</h2>
+                </div>
+              </div>
+              <div class="text">
+                <p></p>
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2>Marketing</h2>
+                </div>
+              </div>
+            </div>
+            <div class="team on">
+              <div class="face">
+                <img src="/images/man_3.png" alt="" />
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2>Finance</h2>
+                </div>
+              </div>
+              <div class="text">
+                <p></p>
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2>Finance</h2>
+                </div>
+              </div>
+            </div>
+            <div class="team">
+              <div class="face">
+                <img src="/images/man_1.png" alt="" />
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2></h2>
+                </div>
+              </div>
+              <div class="text">
+                <p></p>
+                <div class="name">
+                  <h1>홍길동</h1>
+                  <h2></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pre">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+              <circle id="타원_4" data-name="타원 4" cx="13" cy="13" r="13" transform="translate(26 26) rotate(180)" fill="#fff" opacity="0.8" />
+              <path
+                id="패스_178"
+                data-name="패스 178"
+                d="M2021.507,2698l-5.653,4.476,5.653,4.541"
+                transform="translate(-2006.854 -2689.5)"
+                fill="none"
+                stroke="#38cbdc"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                opacity="0.8"
+              />
+            </svg>
+          </div>
+          <div class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+              <circle id="타원_3" data-name="타원 3" cx="13" cy="13" r="13" fill="#fff" opacity="0.8" />
+              <path
+                id="패스_177"
+                data-name="패스 177"
+                d="M2021.507,2698l-5.653,4.476,5.653,4.541"
+                transform="translate(2033.507 2715.517) rotate(180)"
+                fill="none"
+                stroke="#38cbdc"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                opacity="0.8"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="btn"><span></span><span></span></div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="inner">
+        <div class="contents">
+          <h1>Contact Us</h1>
+          <h2>제휴문의</h2>
+          <p>
+            파르온은 자체 개발의 AI 비전 기술을 통해<br />
+            카메라의 시선을 따라 특정의 콘텐츠가 증강되는<br />
+            진화된 AR 서비스를 제공합니다.
+          </p>
+          <button class="on">더알아보기</button>
+        </div>
+      </div>
+      <div class="modal-pop">
+        <div class="modal-inner">
+          <form class="gform" action="https://script.google.com/macros/s/AKfycbwnmajO3uwc0zbLWXzcHsHtYXZHEFsNuc76hHyfwhbLxAteNK7y/exec" method="post">
+            <div class="form-elements">
+              <div class="form-top">
+                <h1>PERSONAL DATA</h1>
+                <fieldset class="form-input">
+                  <label for="name">NAME</label>
+                  <input id="name" name="name" placeholder="이름을 알려주세요" required />
+                </fieldset>
+                <fieldset class="form-input">
+                  <label for="appelation">APPELATION</label>
+                  <input id="appelation" name="appelation" placeholder="직함을 알려주세요" />
+                </fieldset>
+                <fieldset class="form-input">
+                  <label for="company">company</label>
+                  <input id="company" name="company" placeholder="회사 이름을 알려주세요" />
+                </fieldset>
+                <fieldset class="form-input">
+                  <label for="phone">phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="연락 받을 번호를 알려주세요" />
+                </fieldset>
+                <fieldset class="form-input">
+                  <label for="email">e-mail</label>
+                  <input type="email" id="email" name="email" placeholder="연락 받을 이메일 주소를 알려주세요" required />
+                </fieldset>
+              </div>
+              <div class="form-bottom">
+                <fieldset class="form-input">
+                  <label for="title">title</label>
+                  <input id="title" name="title" required />
+                </fieldset>
+                <fieldset class="form-input">
+                  <label for="message">CONTENT</label>
+                  <textarea id="message" name="message" required></textarea>
+                </fieldset>
+                <fieldset class="form-input honeypot-field">
+                  <label for="honeypot"
+                    >To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label
+                  >
+                  <input id="honeypot" type="text" name="honeypot" value="" />
+                </fieldset>
+                <input class="form-submit" type="submit" value="작성완료" />
+              </div>
+            </div>
+
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+            <div class="thankyou_message" style="display: none">
+              <h2><em>Thanks</em> for contacting us! We will get back to you soon!</h2>
+            </div>
+          </form>
+        </div>
+        <div class="btn"><span></span><span></span></div>
+      </div>
+    </section>
+
+    <script src="/js/javascript.js" async defer></script>
+    <script data-cfasync="false" type="text/javascript" src="/js/form-submission-handler.js"></script>
+  </body>
+</html>
